@@ -38,6 +38,10 @@
             color: #D7BA66;
             transition: all 0.5s;
         }
+        .show-links{
+            display: block;
+            align-items: center
+        }
         #calc{
             color: #D7BA66;
         }
@@ -77,4 +81,12 @@
 </body>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script>
+    const toggleBtn = document.querySelector('.menu');
+    const links = document.querySelector('.nav-links');
+
+    toggleBtn.addEventListener('click', function () {
+        links.classList.toggle('show-links');
+    });
+</script>
 </html>
