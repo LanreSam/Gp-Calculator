@@ -8,8 +8,14 @@
 
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+{{-- font awesome icon --}}
+<script src="https://kit.fontawesome.com/48c2562a43.js" crossorigin="anonymous"></script>
 
     <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
         .container-fluid{
             background-color: #000080;
         }
@@ -25,9 +31,26 @@
         }
         .nav-link{
             color: #fff;
+            display: none;
         }
         .nav-link:hover{
             background-color: #fff;
+            color: #D7BA66;
+            transition: all 0.5s;
+        }
+        #calc{
+            color: #D7BA66;
+        }
+        .menu{
+            color: #fff;
+        }
+        @media screen and (min-width:800px){
+            .menu{
+                display: none;
+            }
+            .nav-link{
+                display: inline;
+            }
         }
     </style>
 </head>
@@ -35,9 +58,9 @@
 
     <div class="container-fluid">
         <header>
-            <nav class="d-flex justify-content-around">
+            <nav class="d-flex justify-content-around pt-3 pb-2">
                 <div class="logo">
-                    <h1>CGPA <small>calc</small></h1>
+                    <h1>CGPA <small id="calc">calc</small></h1>
                 </div>
 
                 <ul class="d-flex navbar">
@@ -45,6 +68,7 @@
                     <li class="nav-item"><a href="#" class="nav-link">How It Works</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Developer</a></li>
                 </ul>
+                <span class="menu py-2"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></span>
             </nav>
         </header>
     </div>
