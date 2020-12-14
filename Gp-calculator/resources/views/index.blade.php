@@ -43,12 +43,24 @@
             color: #000080;
             padding: 10px 70px;
         }
+        #login:hover{
+            background-color: #000080;
+            color: #fff;
+            transition: all 0.3s linear;
+        }
         #register{
             background-color: transparent;
             color: #fff;
             border: #fff 2px solid;
             margin-left: 20px;
         }
+        #register:hover{
+            background-color: #fff;
+            color: #000080;
+            border: none;
+            transition: all 0.3s linear;
+        }
+
     </style>
 </head>
 <body>
