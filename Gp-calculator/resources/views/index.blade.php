@@ -25,53 +25,56 @@
         }
         .main{
             background: rgba(0, 0, 0, 0.6);
-            width: 100vw;
-            height: 100vh;
-        }
-        .container{
+            min-height: 100vh;
             display: grid;
+            place-items: center;
             color: #fff;
         }
+
         a{
             text-decoration: none;
             color: #000080;
             cursor: pointer;
             font-size: 1.2rem;
         }
-        #login{
+        .login{
+            padding: 10px 70px;
             background-color: #000080;
             color: #fff;
-            padding: 10px 70px;
         }
-        #login:hover{
+        .login:hover{
             background-color: #fff;
             color: #000080;
-            transition: all 0.3s linear;
         }
-        #register{
-            background-color: transparent;
-            color: #fff;
-            border: #fff 2px solid;
+        .reg{
             padding: 10px 70px;
+            border: 2px groove #fff;
+            color: #fff;
+            margin-top: 30px;
         }
-        #register:hover{
+        .reg:hover{
             background-color: #fff;
             color: #000080;
             border: none;
-            transition: all 0.3s linear;
         }
-        .btn-links{
-            margin: auto;
+        .button-container{
             display: grid;
-            place-items: center;
-            width: 100%;
         }
-        @media screen and (min-width:800px){
-            .btn-links{
+        .head{
+            font-size: 5rem;
+        }
+        #calc{
+            color: #D7BA66;
+            font-weight: 400;
+        }
+        @media screen and (min-width:500px){
+            .button-container{
                 display: flex;
+                justify-content: center;
             }
-            #register{
-                margin-left: 20px;
+            .reg{
+                margin-left: 30px;
+                margin-top: auto;
             }
         }
     </style>
@@ -81,20 +84,19 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 main">
-                <div class="container">
-                    <div class="txt">
-                        <h1 class="text-center">Home page</h1>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, itaque perspiciatis? Sed debitis veniam temporibus
-                            praesentium consequatur placeat aperiam animi necessitatibus iusto voluptatem aspernatur accusantium a ad,
-                            distinctio perspiciatis? Quisquam.
-                        </p>
+                <main>
+                    <div class="container text-center">
+                      <h1 class="head mb-4">CGPA <small id="calc">calc</small></h1>
+                      <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, quae quisquam placeat, iure autem atque at
+                          beatae ea modi corrupti perferendis mollitia, dolorem ex. Sed beatae corrupti enim expedita voluptatem.
+                      </p>
+                      <div class="button-container mt-5">
+                        <a class="login">Login</a>
+                        <a class="reg">Register</a>
+                      </div>
                     </div>
-                    <div class="btn-links mt-4">
-                        <a href="#" id="login">Login</a>
-                        <a href="#" id="register">Register</a>
-                    </div>
-                </div>
-            </div>
+                </main>
         </div>
     </div>
 </body>
