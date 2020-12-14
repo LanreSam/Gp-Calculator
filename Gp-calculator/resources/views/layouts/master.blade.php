@@ -116,7 +116,6 @@
                     <h1 class="logo d-flex">CGPA <small>calc</small></h1>
                     <button class="nav-toggle btn">
                       <i class="fas fa-bars bars-icon"></i>
-                      <i class="fa fa-times times-icon"></i>
                     </button>
                   </div>
                   <!-- links -->
