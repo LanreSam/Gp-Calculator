@@ -7,72 +7,129 @@
     <title>@yield('title')</title>
 
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-{{-- font awesome icon --}}
-<script src="https://kit.fontawesome.com/48c2562a43.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    {{-- font awesome icon --}}
+    <script src="https://kit.fontawesome.com/48c2562a43.js" crossorigin="anonymous"></script>
 
     <style>
         body{
             margin: 0;
             padding: 0;
         }
-        .container-fluid{
-            background-color: #000080;
-        }
-        .logo{
-            color: #fff;
-        }
-        li{
-            list-style: none
+        ul{
+            list-style-type: none;
         }
         a{
-            text-decoration: none;
-            font-size: 1.2rem
+            list-style: none;
+            text-decoration: none
+        }
+        /*
+        ===============
+        Navbar
+        ===============
+        */
+        .container-fluid {
+        background: #000080;
+        }
+        .nav-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.5rem;
+        }
+        .nav-toggle {
+            font-size: 1.5rem;
+            color: #fff;
+            transition: 0.3s all linear;
+            cursor: pointer;
+        }
+        .nav-toggle:hover {
+            color: #D7BA66;
+            transform: rotate(360deg);
+        }
+        .logo{
+            height: 40px;
+            color: #fff;
+        }
+        small{
+            font-weight: 400;
+            color: #D7BA66;
         }
         .nav-link{
             color: #fff;
-            display: none;
-        }
-        .nav-link:hover{
-            background-color: #fff;
-            color: #D7BA66;
-            transition: all 0.5s;
-        }
-        .show-links{
+            font-size: 1.2rem;
             display: block;
-            align-items: center
+            padding-top: 1rem;
+            transition: 0.3s all linear;
         }
-        #calc{
-            color: #D7BA66;
+        .nav-link:hover {
+            color: #000080;
+            background-color: #fff;
         }
-        .menu{
-            color: #fff;
+        .links {
+            height: 0;
+            overflow: hidden;
+            transition: 0.3s all linear;
         }
-        @media screen and (min-width:800px){
-            .menu{
+        .show-links {
+            height: 10rem;
+        }
+        h1{
+            font-size: 2.5rem;
+        }
+        @media screen and (min-width: 800px) {
+            .nav-center {
+                max-width: 1170px;
+                margin: 0 auto;
+                align-items: center;
+                padding: 1rem;
+                display: flex;
+                justify-content: space-between;
+            }
+            .nav-header {
+                padding: 0;
+            }
+            .nav-toggle {
                 display: none;
             }
-            .nav-link{
-                display: inline;
+            .links {
+                height: auto;
+                display: flex;
+            }
+            .nav-link:hover {
+            color: #D7BA66;
+            background-color: transparent;
             }
         }
     </style>
 </head>
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid fixed-top">
         <header>
-            <nav class="d-flex justify-content-around pt-3 pb-2">
-                <div class="logo">
-                    <h1>CGPA <small id="calc">calc</small></h1>
+            <nav>
+                <div class="nav-center">
+                  <!-- nav header -->
+                  <div class="nav-header">
+                    <h1 class="logo d-flex">CGPA <small>calc</small></h1>
+                    <button class="nav-toggle btn">
+                      <i class="fas fa-bars bars-icon"></i>
+                      <i class="fa fa-times times-icon"></i>
+                    </button>
+                  </div>
+                  <!-- links -->
+                  <ul class="links">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Developer</a>
+                    </li>
+                  </ul>
                 </div>
-
-                <ul class="d-flex navbar">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">How It Works</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Developer</a></li>
-                </ul>
-                <span class="menu py-2"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></span>
             </nav>
         </header>
     </div>
@@ -82,8 +139,8 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script>
-    const toggleBtn = document.querySelector('.menu');
-    const links = document.querySelector('.nav-links');
+    const toggleBtn = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.links');
 
     toggleBtn.addEventListener('click', function () {
         links.classList.toggle('show-links');
