@@ -30,7 +30,6 @@
         }
         .container{
             display: grid;
-            /* place-items: center; */
             color: #fff;
         }
         a{
@@ -53,7 +52,6 @@
             background-color: transparent;
             color: #fff;
             border: #fff 2px solid;
-            margin-left: 20px;
             padding: 10px 70px;
         }
         #register:hover{
@@ -66,10 +64,14 @@
             margin: auto;
             display: grid;
             place-items: center;
+            width: 100%;
         }
         @media screen and (min-width:800px){
             .btn-links{
                 display: flex;
+            }
+            #register{
+                margin-left: 20px;
             }
         }
     </style>
@@ -87,7 +89,7 @@
                             distinctio perspiciatis? Quisquam.
                         </p>
                     </div>
-                    <div class="btn-links my-md-3">
+                    <div class="btn-links mt-4">
                         <a href="#" id="login">Login</a>
                         <a href="#" id="register">Register</a>
                     </div>
