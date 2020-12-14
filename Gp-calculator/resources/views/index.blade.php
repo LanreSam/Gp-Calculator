@@ -24,9 +24,15 @@
             width: 100%;
         }
         .main{
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.6);
             width: 100vw;
             height: 100vh;
+        }
+        .container{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
         }
     </style>
 </head>
@@ -35,7 +41,15 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 main">
-                <h1 class="text-white">Home page</h1>
+                <div class="container">
+                    <h1>Home page</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, itaque perspiciatis? Sed debitis veniam temporibus
+                        praesentium consequatur placeat aperiam animi necessitatibus iusto voluptatem aspernatur accusantium a ad,
+                        distinctio perspiciatis? Quisquam.
+                    </p>
+                    <a href="#" class="btn btn-white">Login</a>
+                    <a href="#" class="btn btn-white">Register</a>
+                </div>
             </div>
         </div>
     </div>
