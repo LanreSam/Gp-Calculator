@@ -82,9 +82,6 @@
         .show-links{
             height: 10rem;
         }
-        .show-links .times-icon{
-            display: inline;
-        }
         h1{
             font-size: 2.5rem;
         }
@@ -157,7 +154,12 @@
     const links = document.querySelector('.links');
 
     toggleBtn.addEventListener('click', function () {
-        links.classList.toggle('show-links');
+        //links.classList.toggle('show-links');
+        if (links.classList.contains("show-links")) {
+            links.classList.remove("show-links");
+        } else {
+            links.classList.add("show-links");
+        }
     });
 </script>
 </html>
