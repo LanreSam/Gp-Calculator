@@ -16,9 +16,13 @@
             margin: 0;
             padding: 0;
             background-color: #F7F5F4;
+            background: url('images/background.jpg');
+            background-size: 100% 50%;
+            background-repeat: no-repeat;
+            width: 100%;
         }
         .img{
-            background: url('images/background.jpg') no-repeat;
+
         }
     </style>
 </head>
