@@ -34,6 +34,19 @@
             justify-content: center;
             color: #fff;
         }
+        a{
+            text-decoration: none;
+            color: #000080;
+        }
+        #login, #register{
+            background-color: white;
+            color: #000080;
+            padding: 10px 70px;
+        }
+        #register{
+            background-color: transparent;
+            color: #fff
+        }
     </style>
 </head>
 <body>
@@ -47,8 +60,10 @@
                         praesentium consequatur placeat aperiam animi necessitatibus iusto voluptatem aspernatur accusantium a ad,
                         distinctio perspiciatis? Quisquam.
                     </p>
-                    <a href="#" class="btn btn-white">Login</a>
-                    <a href="#" class="btn btn-white">Register</a>
+                    <div class="btn-links">
+                        <a href="#" id="login">Login</a>
+                        <a href="#" id="register">Register</a>
+                    </div>
                 </div>
             </div>
         </div>
