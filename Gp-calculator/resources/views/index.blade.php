@@ -17,12 +17,16 @@
             padding: 0;
             background-color: #F7F5F4;
             background: url('images/background.jpg');
-            background-size: 100% 50%;
+            background-size: cover;
+            background-position: center 30%;
+            background-attachment: fixed;
             background-repeat: no-repeat;
             width: 100%;
         }
-        .img{
-
+        .main{
+            background: rgba(0, 0, 0, 0.7);
+            width: 100vw;
+            height: 100vh;
         }
     </style>
 </head>
@@ -30,9 +34,8 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-                <div class="img"></div>
-                <h1 class="mt-5">Home Page Content</h1>
+            <div class="col-md-12 main">
+                <h1 class="text-white">Home page</h1>
             </div>
         </div>
     </div>
