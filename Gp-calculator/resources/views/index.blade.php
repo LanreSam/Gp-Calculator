@@ -61,7 +61,7 @@
             display: grid;
         }
         .head{
-            font-size: 5rem;
+            font-size: 4.5rem;
         }
         #calc{
             color: #D7BA66;
@@ -92,8 +92,8 @@
                           beatae ea modi corrupti perferendis mollitia, dolorem ex. Sed beatae corrupti enim expedita voluptatem.
                       </p>
                       <div class="button-container mt-5">
-                        <a class="login">Login</a>
-                        <a class="reg">Register</a>
+                        <a class="login" href="/login">Login</a>
+                        <a class="reg" href="/register">Register</a>
                       </div>
                     </div>
                 </main>
