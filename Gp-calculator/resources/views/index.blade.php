@@ -16,12 +16,13 @@
             margin: 0;
             padding: 0;
             background-color: #F7F5F4;
+            background: url('./images/background.jpg');
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <h1 class="mt-5">Home Page Content</h1>
