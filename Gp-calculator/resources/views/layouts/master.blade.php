@@ -15,6 +15,7 @@
         body{
             margin: 0;
             padding: 0;
+            background-color: #F7F5F4;
         }
         ul{
             list-style-type: none;
@@ -29,7 +30,7 @@
         ===============
         */
         .container-fluid {
-        background: #000080;
+        background: #fff;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1)
         }
         .nav-header {
@@ -40,7 +41,7 @@
         }
         .nav-toggle {
             font-size: 1.5rem;
-            color: #fff;
+            color: #000080;
             transition: 0.3s all linear;
             cursor: pointer;
         }
@@ -51,22 +52,23 @@
         }
         .logo{
             height: 40px;
-            color: #fff;
+            font-size: 2.5rem;
+            color: #000080;
         }
         small{
             font-weight: 400;
             color: #D7BA66;
         }
         .nav-link{
-            color: #fff;
+            color: #000080;
             font-size: 1.2rem;
             display: block;
             padding-top: 1rem;
             transition: 0.3s all linear;
         }
         .nav-link:hover {
-            color: #000080;
-            background-color: #fff;
+            color: #fff;
+            background-color: #000080;
         }
         .links {
             height: 0;
@@ -75,9 +77,6 @@
         }
         .show-links{
             height: 10rem;
-        }
-        h1{
-            font-size: 2.5rem;
         }
         @media screen and (min-width: 800px) {
             .nav-center {
@@ -121,7 +120,7 @@
                   <!-- links -->
                   <ul class="links">
                     <li class="nav-item">
-                      <a href="#" class="nav-link">Home</a>
+                      <a href="/" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">How It Works</a>
@@ -135,7 +134,7 @@
         </header>
     </div>
 
-    @yield('section')
+    @yield('content')
 </body>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
