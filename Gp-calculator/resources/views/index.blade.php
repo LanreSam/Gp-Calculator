@@ -16,7 +16,9 @@
             margin: 0;
             padding: 0;
             background-color: #F7F5F4;
-            background: url('./images/background.jpg');
+        }
+        .img{
+            background: url('images/background.jpg') no-repeat;
         }
     </style>
 </head>
@@ -25,6 +27,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
+                <div class="img"></div>
                 <h1 class="mt-5">Home Page Content</h1>
             </div>
         </div>
