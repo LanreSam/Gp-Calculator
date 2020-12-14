@@ -82,12 +82,6 @@
         .show-links {
             height: 10rem;
         }
-        .show-links .times-icon{
-            display: inline;
-        }
-        .show-links .bars-icon{
-            display: none;
-        }
         h1{
             font-size: 2.5rem;
         }
