@@ -45,7 +45,9 @@
         }
         #register{
             background-color: transparent;
-            color: #fff
+            color: #fff;
+            border: #fff 2px solid;
+            margin-left: 20px;
         }
     </style>
 </head>
@@ -60,7 +62,7 @@
                         praesentium consequatur placeat aperiam animi necessitatibus iusto voluptatem aspernatur accusantium a ad,
                         distinctio perspiciatis? Quisquam.
                     </p>
-                    <div class="btn-links">
+                    <div class="btn-links d-flex">
                         <a href="#" id="login">Login</a>
                         <a href="#" id="register">Register</a>
                     </div>
