@@ -29,23 +29,24 @@
             height: 100vh;
         }
         .container{
-            display: block;
-            align-items: center;
-            justify-content: center;
+            display: grid;
+            /* place-items: center; */
             color: #fff;
         }
         a{
             text-decoration: none;
             color: #000080;
+            cursor: pointer;
+            font-size: 1.2rem;
         }
-        #login, #register{
-            background-color: white;
-            color: #000080;
+        #login{
+            background-color: #000080;
+            color: #fff;
             padding: 10px 70px;
         }
         #login:hover{
-            background-color: #000080;
-            color: #fff;
+            background-color: #fff;
+            color: #000080;
             transition: all 0.3s linear;
         }
         #register{
@@ -53,6 +54,7 @@
             color: #fff;
             border: #fff 2px solid;
             margin-left: 20px;
+            padding: 10px 70px;
         }
         #register:hover{
             background-color: #fff;
@@ -60,7 +62,16 @@
             border: none;
             transition: all 0.3s linear;
         }
-
+        .btn-links{
+            margin: auto;
+            display: grid;
+            place-items: center;
+        }
+        @media screen and (min-width:800px){
+            .btn-links{
+                display: flex;
+            }
+        }
     </style>
 </head>
 <body>
@@ -69,12 +80,14 @@
         <div class="row">
             <div class="col-md-12 main">
                 <div class="container">
-                    <h1>Home page</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, itaque perspiciatis? Sed debitis veniam temporibus
-                        praesentium consequatur placeat aperiam animi necessitatibus iusto voluptatem aspernatur accusantium a ad,
-                        distinctio perspiciatis? Quisquam.
-                    </p>
-                    <div class="btn-links d-flex">
+                    <div class="txt">
+                        <h1 class="text-center">Home page</h1>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, itaque perspiciatis? Sed debitis veniam temporibus
+                            praesentium consequatur placeat aperiam animi necessitatibus iusto voluptatem aspernatur accusantium a ad,
+                            distinctio perspiciatis? Quisquam.
+                        </p>
+                    </div>
+                    <div class="btn-links my-md-3">
                         <a href="#" id="login">Login</a>
                         <a href="#" id="register">Register</a>
                     </div>
