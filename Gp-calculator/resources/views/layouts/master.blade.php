@@ -43,9 +43,17 @@
             transition: 0.3s all linear;
             cursor: pointer;
         }
-        .nav-toggle:hover {
+        .nav-toggle:hover{
             color: #D7BA66;
+
             transform: rotate(360deg);
+            transition: all 0.7 linear;
+        }
+        .nav-toggle:hover .times-icon{
+            display: inline;
+        }
+        .nav-toggle:hover .bars-icon{
+            display: none;
         }
         .logo{
             height: 40px;
