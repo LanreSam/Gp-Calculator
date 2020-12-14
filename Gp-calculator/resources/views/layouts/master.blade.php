@@ -49,12 +49,6 @@
             transform: rotate(360deg);
             transition: all 0.7 linear;
         }
-        .nav-toggle:hover .times-icon{
-            display: inline;
-        }
-        .nav-toggle:hover .bars-icon{
-            display: none;
-        }
         .logo{
             height: 40px;
             color: #fff;
@@ -84,9 +78,6 @@
         }
         h1{
             font-size: 2.5rem;
-        }
-        .times-icon{
-            display: none;
         }
         @media screen and (min-width: 800px) {
             .nav-center {
@@ -154,12 +145,7 @@
     const links = document.querySelector('.links');
 
     toggleBtn.addEventListener('click', function () {
-        //links.classList.toggle('show-links');
-        if (links.classList.contains("show-links")) {
-            links.classList.remove("show-links");
-        } else {
-            links.classList.add("show-links");
-        }
+        links.classList.toggle('show-links');
     });
 </script>
 </html>
