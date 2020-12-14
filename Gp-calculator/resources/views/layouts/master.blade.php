@@ -30,6 +30,7 @@
         */
         .container-fluid {
         background: #000080;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1)
         }
         .nav-header {
             display: flex;
@@ -45,7 +46,6 @@
         }
         .nav-toggle:hover{
             color: #D7BA66;
-
             transform: rotate(360deg);
             transition: all 0.7 linear;
         }
@@ -79,8 +79,11 @@
             overflow: hidden;
             transition: 0.3s all linear;
         }
-        .show-links {
+        .show-links{
             height: 10rem;
+        }
+        .show-links .times-icon{
+            display: inline;
         }
         h1{
             font-size: 2.5rem;
