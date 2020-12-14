@@ -12,13 +12,21 @@
     <script src="https://kit.fontawesome.com/48c2562a43.js" crossorigin="anonymous"></script>
 
     <style>
-
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #F7F5F4;
+        }
     </style>
 </head>
 <body>
 
-    <div class="container-fluid fixed-top">
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="mt-5">Home Page Content</h1>
+            </div>
+        </div>
     </div>
 </body>
 <!-- JavaScript Bundle with Popper -->
