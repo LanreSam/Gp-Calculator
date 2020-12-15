@@ -58,7 +58,7 @@
                                 @csrf
                                 <div class="form-group">
                                     <label for="name">Full name</label>
-                                    <input type="text" class="form-control mb-4" id="name" name="name">
+                                    <input type="text" class="form-control mb-4" id="name" name="name" required/>
 
                                       @error('name')
                                           <span class="text-danger">{{ $message }}</span>
@@ -66,7 +66,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="level">Current Level <small class="text-muted">e.g 100, 200, 300 ...</small></label>
-                                    <input type="text" class="form-control mb-4" id="level" name="level">
+                                    <input type="text" class="form-control mb-4" id="level" name="level"/>
 
                                       @error('level')
                                           <span class="text-danger">{{ $message }}</span>
@@ -74,7 +74,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="department">Department <small class="text-muted">e.g Accounting</small></label>
-                                    <input type="text" class="form-control mb-4" id="email" name="department">
+                                    <input type="text" class="form-control mb-4" id="email" name="department" required/>
 
                                       @error('department')
                                           <span class="text-danger">{{ $message }}</span>
@@ -82,7 +82,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="matric">Matric Number</label>
-                                    <input type="text" class="form-control mb-4" id="matric" name="matric">
+                                    <input type="text" class="form-control mb-4" id="matric" name="matric" required/>
 
                                       @error('matric')
                                           <span class="text-danger">{{ $message }}</span>
@@ -90,7 +90,7 @@
                                 </div>
                                 <div class="form-group">
                                   <label for="email">Email address</label>
-                                  <input type="email" class="form-control mb-4" id="email" name="email">
+                                  <input type="email" class="form-control mb-4" id="email" name="email" required/>
 
                                     @error('email')
                                         <span class="text-danger">{{ $message }}</span>
@@ -98,7 +98,7 @@
                                 </div>
                                 <div class="form-group">
                                   <label for="password">Password</label>
-                                  <input type="password" class="form-control" id="password" name="password">
+                                  <input type="password" class="form-control" id="password" name="password" required/>
 
                                   @error('password')
                                       <span class="text-danger">{{ $message }}</span>
