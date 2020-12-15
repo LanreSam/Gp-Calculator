@@ -42,9 +42,9 @@
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                                <div class="d-lg-flex my-5 justify-content-between d-md-block">
+                                <div class="d-lg-flex mt-5 justify-content-between d-md-block">
                                     <div class="form-group">
-                                        <select name="semester" class="btn btn-warning px-5 py-2 mb-md-4">
+                                        <select name="semester" class="btn btn-warning px-5 py-2">
                                             <option value="" disabled selected>Choose semester</option>
                                             <option value="HARMATTAN">HARMATTAN</option>
                                             <option value="RAIN">RAIN</option>
@@ -54,7 +54,7 @@
                                             <span class="text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
-                                    {{-- <div class="mb-3"></div> --}}
+                                    <div class="mb-4"></div>
                                     <div class="form-group">
                                         <select name="level" class="btn btn-primary px-5 py-2">
                                             <option value="" disabled selected>Choose level</option>
@@ -74,7 +74,7 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <input type="submit" value="Submit" class="btn btn-success px-5 py-2"/>
+                                <input type="submit" value="Submit" class="btn btn-success px-5 py-2 mt-4"/>
                             </form>
                         </div>
                     </div>
