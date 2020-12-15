@@ -6,9 +6,9 @@
             <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <div class="card">
-                        <div class="card-header d-flex">
-                            <a href="/gp"><i class="fa fa-arrow-left pt-1 mr-4" aria-hidden="true"></i></a>
-                            Add new grade
+                        <div class="card-header d-flex justify-content-between">
+                            <a href="/"><i class="fa fa-arrow-left fa-lg pt-2 mt-1 text-muted"></i></a>
+                            <h3 class="text-muted">Add new grade</h3>
                         </div>
                         <div class="card-body">
                             @if(Session::has('msg'))
@@ -44,7 +44,7 @@
                                 </div>
                                 <div class="d-flex my-5 justify-content-between">
                                     <div class="form-group">
-                                        <select name="semester" class="btn btn-info px-5 py-2">
+                                        <select name="semester" class="btn btn-warning px-5 py-2">
                                             <option value="" disabled selected>Choose semester</option>
                                             <option value="HARMATTAN">HARMATTAN</option>
                                             <option value="RAIN">RAIN</option>
