@@ -26,3 +26,6 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
+Route::get('/add-grade', function () {
+    return view('add-grade');
+});
