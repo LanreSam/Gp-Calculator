@@ -42,7 +42,7 @@
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                                <div class="d-lg-flex mt-5 justify-content-between d-md-block">
+                                <div class="d-lg-flex my-5 justify-content-between d-md-block">
                                     <div class="form-group">
                                         <select name="semester" class="btn btn-warning px-5 py-2">
                                             <option value="" disabled selected>Choose semester</option>
@@ -74,7 +74,7 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <input type="submit" value="Submit" class="btn btn-success px-5 py-2 mt-4"/>
+                                <input type="submit" value="Submit" class="btn btn-success px-5 py-2"/>
                             </form>
                         </div>
                     </div>
