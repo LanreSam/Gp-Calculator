@@ -42,9 +42,9 @@
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                                <div class="d-flex my-5">
+                                <div class="d-flex my-5 justify-content-between">
                                     <div class="form-group">
-                                        <select name="semester" class="btn btn-info">
+                                        <select name="semester" class="btn btn-info px-5 py-2">
                                             <option value="" disabled selected>Choose semester</option>
                                             <option value="HARMATTAN">HARMATTAN</option>
                                             <option value="RAIN">RAIN</option>
@@ -54,9 +54,9 @@
                                             <span class="text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
-                                    <div class="mr-3"></div>
+                                    {{-- <div class="m-3"></div> --}}
                                     <div class="form-group">
-                                        <select name="level" class="btn btn-primary">
+                                        <select name="level" class="btn btn-primary px-5 py-2">
                                             <option value="" disabled selected>Choose level</option>
                                             <option value="100">100</option>
                                             <option value="200">200</option>
@@ -74,7 +74,7 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <input type="submit" value="Submit" class="btn btn-success"/>
+                                <input type="submit" value="Submit" class="btn btn-success px-5 py-2"/>
                             </form>
                         </div>
                     </div>
