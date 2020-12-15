@@ -21,14 +21,26 @@
                                 <div class="form-group">
                                     <label for="course_code">Course code</label>
                                     <input type="text" name="course_code" class="form-control" placeholder="Enter course code" required/>
+
+                                    @error('course_code')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                                 <div class="form-group">
                                     <label for="score">Score</label>
                                     <input type="text" name="score" class="form-control" placeholder="Enter score" required/>
+
+                                    @error('score')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                                 <div class="form-group">
                                     <label for="course_unit">Course unit</label>
                                     <input type="text" name="course_unit" class="form-control" placeholder="Enter course unit" required/>
+
+                                    @error('course_unit')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                                 <div class="d-flex">
                                     <div class="form-group">
@@ -49,7 +61,7 @@
                                             <option value="600">600</option>
                                             <option value="700">700</option>
                                             <option value="800">800</option>
-                                            <option value="">900</option>
+                                            <option value="900">900</option>
                                         </select>
                                     </div>
                                 </div>
