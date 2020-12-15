@@ -16,6 +16,12 @@
             margin: 0;
             padding: 0;
             background-color: #F7F5F4;
+            background: url('images/bg.jpg');
+            background-size: cover;
+            background-position: center 30%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            width: 100%;
         }
         .fas{
             color: gray;
@@ -46,7 +52,7 @@
                             <div class="d-flex justify-content-between">
                                 <a href="/"><i class="fas fa-arrow-left fa-lg pt-3"></i></a>
                                 <h3 class="text-muted">Login</h3>
-                                <h5 class="text-muted">CGPA <small>calc</small></h5>
+                                <h5 class="text-muted">CGPA <small>calculator</small></h5>
                             </div>
                         </div>
                         <div class="card-body">

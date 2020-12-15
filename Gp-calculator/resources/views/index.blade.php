@@ -16,7 +16,7 @@
             margin: 0;
             padding: 0;
             background-color: #F7F5F4;
-            background: url('images/background.jpg');
+            background: url('images/bg.jpg');
             background-size: cover;
             background-position: center 30%;
             background-attachment: fixed;
@@ -39,12 +39,12 @@
         }
         .login{
             padding: 10px 70px;
-            background-color: #000080;
-            color: #fff;
-        }
-        .login:hover{
             background-color: #fff;
             color: #000080;
+        }
+        .login:hover{
+            background-color: #000080;
+            color: #fff;
         }
         .reg{
             padding: 10px 70px;
@@ -62,10 +62,11 @@
         }
         .head{
             font-size: 4.5rem;
+            font-weight: bold;
         }
         #calc{
             color: #D7BA66;
-            font-weight: 400;
+            font-weight: 500;
         }
         @media screen and (min-width:500px){
             .button-container{
