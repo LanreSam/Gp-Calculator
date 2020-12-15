@@ -29,7 +29,7 @@
         Navbar
         ===============
         */
-        .container-fluid {
+        .top {
         background: #fff;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1)
         }
@@ -106,7 +106,7 @@
 </head>
 <body>
 
-    <div class="container-fluid fixed-top">
+    <div class="container-fluid fixed-top top">
         <header>
             <nav>
                 <div class="nav-center">

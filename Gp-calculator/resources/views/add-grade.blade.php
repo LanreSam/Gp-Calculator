@@ -1,8 +1,8 @@
 @extends('layouts.master')
 @section('title', 'Add-grade')
 @section('content')
-    <section>
-        <div class="container mt-5">
+    <section style="margin-top: 10rem">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <div class="card">
@@ -16,7 +16,7 @@
                                     {{ Session::get('msg') }}
                                 </div>
                             @endif
-                            <form method="POST" action="{{ route('grade.submit') }}">
+                            <form method="POST" action="">
                                 @csrf
                                 <div class="form-group">
                                     <label for="course_code">Course code</label>
