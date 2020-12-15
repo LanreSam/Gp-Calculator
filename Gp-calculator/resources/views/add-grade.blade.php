@@ -26,7 +26,7 @@
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group my-4">
                                     <label for="score">Score</label>
                                     <input type="text" name="score" class="form-control" placeholder="Enter score" required/>
 
@@ -34,7 +34,7 @@
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group my-4">
                                     <label for="course_unit">Course unit</label>
                                     <input type="text" name="course_unit" class="form-control" placeholder="Enter course unit" required/>
 
@@ -42,9 +42,9 @@
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                                <div class="d-flex">
+                                <div class="d-flex my-5">
                                     <div class="form-group">
-                                        <select name="semester" class="btn btn-dark">
+                                        <select name="semester" class="btn btn-info">
                                             <option value="" disabled selected>Choose semester</option>
                                             <option value="HARMATTAN">HARMATTAN</option>
                                             <option value="RAIN">RAIN</option>
@@ -54,8 +54,9 @@
                                             <span class="text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
-                                    <div class="form-group ml-3">
-                                        <select name="level" class="btn btn-dark">
+                                    <div class="mr-3"></div>
+                                    <div class="form-group">
+                                        <select name="level" class="btn btn-primary">
                                             <option value="" disabled selected>Choose level</option>
                                             <option value="100">100</option>
                                             <option value="200">200</option>
@@ -73,7 +74,7 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <input type="submit" value="Submit" class="btn btn-success mt-4"/>
+                                <input type="submit" value="Submit" class="btn btn-success"/>
                             </form>
                         </div>
                     </div>
