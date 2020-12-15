@@ -16,7 +16,7 @@
             margin: 0;
             padding: 0;
             background-color: #F7F5F4;
-            background: url('images/bg.jpg');
+            background: url('images/oou.jpg');
             background-size: cover;
             background-position: center 30%;
             background-attachment: fixed;
@@ -87,7 +87,7 @@
             <div class="col-md-12 main">
                 <main>
                     <div class="container text-center">
-                      <h1 class="head mb-4">CGPA <small id="calc">calculator</small></h1>
+                      <h1 class="head mb-4">CGPA <small id="calc">calc</small></h1>
                       <p>
                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, quae quisquam placeat, iure autem atque at
                           beatae ea modi corrupti perferendis mollitia, dolorem ex. Sed beatae corrupti enim expedita voluptatem.

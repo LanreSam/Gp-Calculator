@@ -26,7 +26,7 @@
             place-items: center;
         }
         .card{
-            margin-top: 50%;
+            margin-top: 20%;
         }
         #calc{
             color: #D7BA66;
@@ -34,7 +34,7 @@
         }
         @media screen and (min-width:500px){
             .card{
-            margin-top: 30%;
+                margin-top: 10%;
             }
         }
     </style>
@@ -57,10 +57,42 @@
                             <form method="POST" action="" class="p-3">
                                 @csrf
                                 <div class="form-group">
-                                  <label for="matric">Matric Number</label>
-                                  <input type="text" class="form-control mb-4" id="matric" name="matric">
+                                    <label for="name">Full name</label>
+                                    <input type="text" class="form-control mb-4" id="name" name="name">
 
-                                    @error('matric')
+                                      @error('name')
+                                          <span class="text-danger">{{ $message }}</span>
+                                      @enderror
+                                </div>
+                                <div class="form-group">
+                                    <label for="level">Current Level <small class="text-muted">e.g 100, 200, 300 ...</small></label>
+                                    <input type="text" class="form-control mb-4" id="level" name="level">
+
+                                      @error('level')
+                                          <span class="text-danger">{{ $message }}</span>
+                                      @enderror
+                                </div>
+                                <div class="form-group">
+                                    <label for="department">Department <small class="text-muted">e.g Accounting</small></label>
+                                    <input type="text" class="form-control mb-4" id="email" name="department">
+
+                                      @error('department')
+                                          <span class="text-danger">{{ $message }}</span>
+                                      @enderror
+                                </div>
+                                <div class="form-group">
+                                    <label for="matric">Matric Number</label>
+                                    <input type="text" class="form-control mb-4" id="matric" name="matric">
+
+                                      @error('matric')
+                                          <span class="text-danger">{{ $message }}</span>
+                                      @enderror
+                                </div>
+                                <div class="form-group">
+                                  <label for="email">Email address</label>
+                                  <input type="email" class="form-control mb-4" id="email" name="email">
+
+                                    @error('email')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
@@ -73,8 +105,8 @@
                                   @enderror
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <button type="submit" class="btn btn-primary mt-4">Login</button>
-                                    <small class="mt-4 pt-2">Don't have an account? | <a href="/register">Register</a></small>
+                                    <button type="submit" class="btn btn-primary mt-4">Register</button>
+                                    <small class="mt-4 pt-2">Already a user? | <a href="/login">Login</a></small>
                                 </div>
                             </form>
                         </div>
