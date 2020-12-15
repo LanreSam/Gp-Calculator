@@ -7,7 +7,7 @@
                 <div class="col-md-6 offset-md-3">
                     <div class="card">
                         <div class="card-header d-flex">
-                            <a href="/gp"><i class="fas fa-arrow-left pt-1 mr-4" aria-hidden="true"></i></a>
+                            <a href="/gp"><i class="fa fa-arrow-left pt-1 mr-4" aria-hidden="true"></i></a>
                             Add new grade
                         </div>
                         <div class="card-body">
@@ -16,7 +16,7 @@
                                     {{ Session::get('msg') }}
                                 </div>
                             @endif
-                            <form method="POST" action="">
+                            <form method="POST" action="" class="p-3">
                                 @csrf
                                 <div class="form-group">
                                     <label for="course_code">Course code</label>
