@@ -49,6 +49,10 @@
                                             <option value="HARMATTAN">HARMATTAN</option>
                                             <option value="RAIN">RAIN</option>
                                         </select>
+
+                                        @error('semester')
+                                            <span class="text-danger">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                     <div class="form-group ml-3">
                                         <select name="level" class="btn btn-dark">
@@ -63,6 +67,10 @@
                                             <option value="800">800</option>
                                             <option value="900">900</option>
                                         </select>
+
+                                        @error('level')
+                                            <span class="text-danger">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                 </div>
                                 <input type="submit" value="Submit" class="btn btn-success mt-4"/>
