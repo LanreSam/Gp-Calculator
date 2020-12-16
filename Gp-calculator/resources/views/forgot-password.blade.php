@@ -65,7 +65,7 @@
                                     @enderror
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <button type="submit" class="btn btn-primary mt-4 px-4 py-2">Submit</button>
+                                    <button type="submit" class="btn btn-primary mt-3 px-4 py-2">Submit</button>
                                 </div>
                             </form>
                         </div>
