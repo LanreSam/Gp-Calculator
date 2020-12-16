@@ -73,7 +73,7 @@
                                   @enderror
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <button type="submit" class="btn btn-primary mt-4">Login</button>
+                                    <button type="submit" class="btn btn-primary mt-4 px-5 py-2">Login</button>
                                     <small class="mt-4 pt-2">Forgot password? | <a href="/forgot-password">Click here</a></small>
                                 </div>
                             </form>

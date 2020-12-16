@@ -48,7 +48,7 @@
                     <div class="card shadow">
                         <div class="card-header">
                             <div class="d-flex justify-content-between">
-                                <a href="/"><i class="fas fa-arrow-left fa-lg pt-2 mt-1"></i></a>
+                                <a href="/login"><i class="fas fa-arrow-left fa-lg pt-2 mt-1"></i></a>
                                 <h3 class="text-muted">Recover Account</h3>
                                 <h5 class="text-muted pt-2">CGPA <small id="calc">calc</small></h5>
                             </div>
@@ -65,7 +65,7 @@
                                     @enderror
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <button type="submit" class="btn btn-primary mt-3 px-4 py-2">Submit</button>
+                                    <button type="submit" class="btn btn-primary mt-3 px-5 py-2">Submit</button>
                                 </div>
                             </form>
                         </div>
