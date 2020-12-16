@@ -32,3 +32,6 @@ Route::get('/forgot-password', function () {
 Route::get('/add-grade', function () {
     return view('add-grade');
 });
+Route::get('/developer', function () {
+    return view('developer');
+});

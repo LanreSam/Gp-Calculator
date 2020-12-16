@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
-                    <div class="card">
+                    <div class="card shadow">
                         <div class="card-header d-flex justify-content-between">
                             <a href="/"><i class="fa fa-arrow-left fa-lg pt-2 mt-1 text-muted"></i></a>
                             <h3 class="text-muted">Add new grade</h3>
