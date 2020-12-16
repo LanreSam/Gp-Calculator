@@ -126,7 +126,7 @@
                         <a href="#" class="nav-link">How It Works</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Developer</a>
+                        <a href="/developer" class="nav-link">Developer</a>
                     </li>
                   </ul>
                 </div>
