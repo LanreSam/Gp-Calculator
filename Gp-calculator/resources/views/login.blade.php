@@ -45,7 +45,7 @@
         <div class="row">
             <main>
                 <div class="col-md-6 offset-md-3">
-                    <div class="card">
+                    <div class="card shadow">
                         <div class="card-header">
                             <div class="d-flex justify-content-between">
                                 <a href="/"><i class="fas fa-arrow-left fa-lg pt-2 mt-1"></i></a>
