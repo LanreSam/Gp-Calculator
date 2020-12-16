@@ -64,17 +64,8 @@
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                                <div class="form-group">
-                                  <label for="password">Password</label>
-                                  <input type="password" class="form-control" id="password" name="password" required/>
-
-                                  @error('password')
-                                      <span class="text-danger">{{ $message }}</span>
-                                  @enderror
-                                </div>
                                 <div class="d-flex justify-content-between">
-                                    <button type="submit" class="btn btn-primary mt-4">Login</button>
-                                    <small class="mt-4 pt-2">Forgot password? | <a href="/forgot-password">Click here</a></small>
+                                    <button type="submit" class="btn btn-primary mt-4">Submit</button>
                                 </div>
                             </form>
                         </div>
