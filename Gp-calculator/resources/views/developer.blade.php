@@ -24,6 +24,7 @@
                             A current 300L Computer Science student of the prestigious Olabisi Onabanjo University (O.O.U)
                             as at the time of development of this application.
                         </p>
+                        <a href="https://lanresam.ml" target="_blank" class="btn btn-info px-5 py-3">My Portfolio</a>
                     </div>
                 </div>
             </div>
