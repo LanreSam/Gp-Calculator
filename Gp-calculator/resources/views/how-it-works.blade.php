@@ -73,12 +73,16 @@
                         </div>
                         <div class="mt-5"></div>
                         <div class="col-lg-6 text-center p-3">
-                            <h1 class="txt">How OOU calculates GPA</h1>
+                            <h1 class="txt mb-4">How OOU calculates GPA</h1>
                             <p>
-                                Every course in OOU has a Course unit (CU). Therefore to get the Quality Point (QP) for a particular
-                                course in any semester, OOU multiplies the Course Unit (CU) by the Grade Point (GP) earned by the student
+                                Every course in OOU has a Course unit <b>(CU)</b>. Therefore to get the Quality Point <b>(QP)</b> for a particular
+                                course in any semester, OOU multiplies the Course Unit (CU) by the Grade Point <b>(GP)</b> earned by the student
                                 in that particular course. <br/><br/>
-                                <b>For Example:</b>
+                                <b>For Example:</b> Lanre signed up for 20 credit units in Rain Semester, and got a Quality Point of
+                                85 for that Semester. Therefore, OOU calculates Lanre's Grade Point Average<b>GPA</b> for that particular semester using the formula
+                                <b>GPA = QP/CU</b><br/>
+                                <b>GPA = 85/20</b><br/>
+                                <b>GPA = </b>
                             </p>
                         </div>
                     </div>
