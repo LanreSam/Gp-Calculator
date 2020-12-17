@@ -1,9 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Developer')
 @section('content')
-@php
-    $active = 'active';
-@endphp
     <style>
         .img{
             width: 100%;

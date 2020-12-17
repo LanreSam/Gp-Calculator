@@ -1,9 +1,6 @@
 @extends('layouts.master')
 @section('title', 'How It Works')
 @section('content')
-@php
-    $active = 'active';
-@endphp
     <style>
         .img{
             width: 100%;
@@ -24,15 +21,14 @@
                     repellat. Excepturi exercitationem aliquam corrupti, suscipit nulla labore itaque dolorem maxime amet fugit voluptatum.
                 </p>
             </div>
-        </div>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-12 d-lg-flex d-block">
-                    <div class="col-lg-6  text-center p-5">
-                        <div class="">
+            {{-- This is the second section --}}
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-12 d-lg-flex d-block">
+                        <div class="col-lg-6  text-center">
                             <div class="card">
                                 <div class="card-header bg-dark">
-                                    <h1 class="text-light p-2">University Grading System in Nigeria</h1>
+                                    <h1 class="text-light p-1">University Grading System in Nigeria</h1>
                                 </div>
                                 <div class="card-body">
                                     <table class="table table-striped">
@@ -51,17 +47,17 @@
                                             </tr>
                                             <tr>
                                                 <td>B</td>
-                                                <td>Second class Honours, Upper(4)</td>
+                                                <td>Second class Honours, <b>Upper</b> (4)</td>
                                                 <td>60.00 - 69.99</td>
                                             </tr>
                                             <tr>
                                                 <td>C</td>
-                                                <td>Second class Honours, Lower(3)</td>
+                                                <td>Second class Honours, <b>Lower</b> (3)</td>
                                                 <td>50.00 - 59.99</td>
                                             </tr>
                                             <tr>
                                                 <td>D</td>
-                                                <td>Third class (3)</td>
+                                                <td>Third class (2)</td>
                                                 <td>45.00 - 49.99</td>
                                             </tr>
                                             <tr>
@@ -78,14 +74,14 @@
                                     </table>
                                 </div>
                             </div>
-                            
                         </div>
-                    </div>
-                    <div class="col-lg-6 bg-white shadow d-flex justify-content-center p-5">
-                        <img src="images/dev.png" alt="Developer" class="img"/>
+                        <div class="col-lg-6 d-flex justify-content-center">
+                            <img src="images/dev.png" alt="Developer" class="img"/>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
 @endsection
