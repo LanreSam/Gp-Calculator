@@ -157,7 +157,7 @@
             </nav>
         </header>
     </div>
-
+    
     @yield('content')
 </body>
 <!-- JavaScript Bundle with Popper -->
