@@ -17,6 +17,9 @@
             padding: 0;
             background-color: #F7F5F4;
         }
+        html{
+            scroll-behavior: auto;
+        }
         ul{
             list-style-type: none;
         }

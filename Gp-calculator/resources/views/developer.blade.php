@@ -8,12 +8,6 @@
         .img{
             width: 100%;
         }
-        .active{
-            background-color: #000080;
-            font-weight: bold;
-            color: #fff;
-            padding: 20px;
-        }
         @media screen and (min-width: 769px){
             .img{
                 width: 70%;
@@ -31,10 +25,10 @@
                         <div class="p-4">
                             <h1>Ezeche Lanre Samuel</h1>
                             <p class="my-5">
-                                A current 300L Computer Science student at the prestigious Olabisi Onabanjo University (O.O.U)
+                                A 300L Computer Science student at the prestigious Olabisi Onabanjo University (O.O.U)
                                 as at the time of development of this application.
                             </p>
-                            <a href="https://lanresam.ml" target="_blank" class="btn btn-info px-5 py-3">My Portfolio</a>
+                            <a href="https://lanresam.ml" target="_blank" class="btn btn-info px-5 py-3">Visit Website</a>
                         </div>
 
                     </div>
