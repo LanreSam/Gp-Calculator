@@ -28,24 +28,42 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-12 d-lg-flex d-block">
-                    <div class="col-lg-6 bg-dark text-center text-light p-5">
+                    <div class="col-lg-6  text-center text-light p-5">
                         <div class="p-4">
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
-                                        <th>id</th>
-                                        <th>Name</th>
-                                        <th>Email</th>
+                                        <th>Grade</th>
+                                        <th>Grade Description</th>
+                                        <th>Scale</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach($users as $user)
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                    @endforeach
+                                    <tr>
+                                        <td>A</td>
+                                        <td>First class Honours (5)</td>
+                                        <td>70.00 - 100.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>A</td>
+                                        <td>First class Honours (5)</td>
+                                        <td>70.00 - 100.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>A</td>
+                                        <td>First class Honours (5)</td>
+                                        <td>70.00 - 100.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>A</td>
+                                        <td>First class Honours (5)</td>
+                                        <td>70.00 - 100.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>A</td>
+                                        <td>First class Honours (5)</td>
+                                        <td>70.00 - 100.00</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
