@@ -27,6 +27,25 @@
             list-style: none;
             text-decoration: none
         }
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
         /*
         ===============
         Navbar
@@ -128,7 +147,7 @@
                       <a href="/" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">How It Works</a>
+                        <a href="/how-it-works" class="nav-link">How It Works</a>
                     </li>
                     <li class="nav-item">
                         <a href="/developer" class="nav-link">Developer</a>

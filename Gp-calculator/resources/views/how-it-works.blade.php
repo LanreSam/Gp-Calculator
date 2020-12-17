@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Developer')
+@section('title', 'How It Works')
 @section('content')
 @php
     $active = 'active';

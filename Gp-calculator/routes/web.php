@@ -35,3 +35,6 @@ Route::get('/add-grade', function () {
 Route::get('/developer', function () {
     return view('developer');
 });
+Route::get('/how-it-works', function () {
+    return view('how-it-works');
+});
