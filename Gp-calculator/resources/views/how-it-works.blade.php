@@ -15,23 +15,14 @@
         }
     </style>
     <section style="margin-top: 10rem">
-        <div class="container">
+        <div class="container bg-white shadow text-center p-5">
             <div class="row">
-                <div class="col-12 d-lg-flex d-block">
-                    <div class="col-lg-6 bg-white shadow d-flex justify-content-center p-5">
-                        <img src="images/dev.png" alt="Developer" class="img"/>
-                    </div>
-                    <div class="col-lg-6 bg-dark text-center text-light p-5 my-auto">
-                        <div class="p-4">
-                            <h1>Ezeche Lanre Samuel</h1>
-                            <p class="my-5">
-                                A 300L Computer Science student at the prestigious Olabisi Onabanjo University (O.O.U)
-                                as at the time of development of this application.
-                            </p>
-                            <a href="https://lanresam.ml" target="_blank" class="btn btn-info px-5 py-3">Visit Website</a>
-                        </div>
-                    </div>
-                </div>
+                <h1>OOU's Accessment System</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non inventore nam suscipit! Illo pariatur ex hic quibusdam nesciunt
+                    repellat iure eius asperiores! Eaque odio nulla velit voluptatum consequuntur voluptatem alias dolorum ea? Nulla aut esse ex
+                    repellat. Excepturi exercitationem aliquam corrupti, suscipit nulla labore itaque dolorem maxime amet fugit voluptatum.
+                </p>
             </div>
         </div>
     </section>
