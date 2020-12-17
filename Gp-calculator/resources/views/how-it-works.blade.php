@@ -66,8 +66,13 @@
                             </div>
                         </div>
                         <div class="mt-5"></div>
-                        <div class="col-lg-6 d-flex justify-content-center">
+                        <div class="col-lg-6 text-center">
                             <h1>How OOU calculates GPA</h1>
+                            <p>
+                                Every course in OOU has a Course unit (CU). Therefore to get the Quality Point (QP) for a particular
+                                course in any semester, OOU multiplies the Course Unit (CU) by the Grade Point (GP) earned by the student
+                                in that particular course. <br/><br/>
+                            </p>
                         </div>
                     </div>
                 </div>
