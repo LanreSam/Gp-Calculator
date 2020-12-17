@@ -13,24 +13,17 @@
     </style>
     <section style="margin-top: 10rem">
         <div class="container">
-            {{-- <div class="row">
-                <div class="col-6 col-md-12 d-flex justify-content-center">
-                    <img src="images/dev.png" alt="Developer" class="img"/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6 col-md-12">
-                    <h1>Developer</h1>
-                </div>
-            </div> --}}
             <div class="row">
                 <div class="col-12 d-lg-flex d-block bg-warning">
-                    <div class="col-lg-6 bg-danger d-flex justify-content-center">
+                    <div class="col-lg-6 bg-danger d-flex justify-content-center p-5">
                         <img src="images/dev.png" alt="Developer" class="img"/>
                     </div>
-                    <div class="col-lg-6 bg-success text-center">
-                        <h1>Developer</h1>
-                        <h2>jagdjsig</h2>
+                    <div class="col-lg-6 bg-success text-center p-5">
+                        <h1>Ezeche Lanre Samuel</h1>
+                        <p>
+                            A current 300L student of the prestigious Olabisi Onabanjo University (O.O.U)
+                            as at the time of development of this application.
+                        </p>
                     </div>
                 </div>
             </div>
