@@ -10,11 +10,15 @@
     <section style="margin-top: 10rem">
         <div class="container bg-white shadow text-center p-5 mb-5">
             <div class="row">
-                <h1 class="txt mb-4">OOU's Accessment System</h1>
+                <h1 class="txt mb-4">How this application works</h1>
                 <p class="mb-5">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non inventore nam suscipit! Illo pariatur ex hic quibusdam nesciunt
-                    repellat iure eius asperiores! Eaque odio nulla velit voluptatum consequuntur voluptatem alias dolorum ea? Nulla aut esse ex
-                    repellat. Excepturi exercitationem aliquam corrupti, suscipit nulla labore itaque dolorem maxime amet fugit voluptatum.
+                    This application is a stand alone application and is in no way tied to OOU's Students Portal or websites as at this period.
+                    Therefore, you are adviced to go to your dashboard on the school's portal and write out the following on a piece of 
+                    paper <b>Course Code</b>, <b>Course Units</b>, <b>Score</b>, <b>Semester & Level</b> of each course you did in each semester 
+                    of the academic year you wish to add to your dashboard on this application. This is a one time activity, as your inputs will 
+                    always be stored in this application and readily available for future references as you don't have to go through all the stress
+                    anymore. <br/>
+                    <b>I'm so sorry for the stress. I don't have access to the School's database.</b>
                 </p>
             </div>
             {{-- This is the second section --}}
