@@ -10,8 +10,8 @@
     <section style="margin-top: 10rem">
         <div class="container bg-white shadow text-center p-5 mb-5">
             <div class="row">
-                <h1 class="txt">OOU's Accessment System</h1>
-                <p>
+                <h1 class="txt mb-4">OOU's Accessment System</h1>
+                <p class="mb-5">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non inventore nam suscipit! Illo pariatur ex hic quibusdam nesciunt
                     repellat iure eius asperiores! Eaque odio nulla velit voluptatum consequuntur voluptatem alias dolorum ea? Nulla aut esse ex
                     repellat. Excepturi exercitationem aliquam corrupti, suscipit nulla labore itaque dolorem maxime amet fugit voluptatum.
@@ -72,17 +72,18 @@
                             </div>
                         </div>
                         <div class="mt-5"></div>
-                        <div class="col-lg-6 text-center p-3">
+                        <div class="col-lg-6 text-center p-3 my-auto">
                             <h1 class="txt mb-4">How OOU calculates GPA</h1>
                             <p>
                                 Every course in OOU has a Course unit <b>(CU)</b>. Therefore to get the Quality Point <b>(QP)</b> for a particular
                                 course in any semester, OOU multiplies the Course Unit (CU) by the Grade Point <b>(GP)</b> earned by the student
                                 in that particular course. <br/><br/>
-                                <b>For Example:</b> Lanre signed up for 20 credit units in Rain Semester, and got a Quality Point of
+                                <b>For Example:</b> Lanre signed up for 20 Course units in Rain Semester, and got a Quality Point of
                                 85 for that Semester. Therefore, OOU calculates Lanre's Grade Point Average<b>GPA</b> for that particular semester using the formula
                                 <b>GPA = QP/CU</b><br/>
                                 <b>GPA = 85/20</b><br/>
-                                <b>GPA = </b>
+                                <b>GPA = 4.25</b><br/>
+                                Therefore Lanre's GPA for Rain Semester is <b>4.25</b>
                             </p>
                         </div>
                     </div>
