@@ -1,10 +1,16 @@
 @extends('layouts.master')
 @section('title', 'How It Works')
 @section('content')
+    <style>
+        .txt{
+            color: #000080;
+            font-weight: 600;
+        }
+    </style>
     <section style="margin-top: 10rem">
         <div class="container bg-white shadow text-center p-5 mb-5">
             <div class="row">
-                <h1>OOU's Accessment System</h1>
+                <h1 class="txt">OOU's Accessment System</h1>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non inventore nam suscipit! Illo pariatur ex hic quibusdam nesciunt
                     repellat iure eius asperiores! Eaque odio nulla velit voluptatum consequuntur voluptatem alias dolorum ea? Nulla aut esse ex
@@ -66,12 +72,13 @@
                             </div>
                         </div>
                         <div class="mt-5"></div>
-                        <div class="col-lg-6 text-center">
-                            <h1>How OOU calculates GPA</h1>
+                        <div class="col-lg-6 text-center p-3">
+                            <h1 class="txt">How OOU calculates GPA</h1>
                             <p>
                                 Every course in OOU has a Course unit (CU). Therefore to get the Quality Point (QP) for a particular
                                 course in any semester, OOU multiplies the Course Unit (CU) by the Grade Point (GP) earned by the student
                                 in that particular course. <br/><br/>
+                                <b>For Example:</b>
                             </p>
                         </div>
                     </div>
