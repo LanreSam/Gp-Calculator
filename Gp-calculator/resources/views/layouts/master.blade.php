@@ -82,6 +82,7 @@
         .show-links{
             height: 10rem;
         }
+
         @media screen and (min-width: 800px) {
             .nav-center {
                 max-width: 1170px;

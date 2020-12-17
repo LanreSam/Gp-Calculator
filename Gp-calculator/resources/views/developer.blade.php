@@ -8,6 +8,25 @@
         .img{
             width: 100%;
         }
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
         @media screen and (min-width: 769px){
             .img{
                 width: 70%;
@@ -30,7 +49,6 @@
                             </p>
                             <a href="https://lanresam.ml" target="_blank" class="btn btn-info px-5 py-3">Visit Website</a>
                         </div>
-
                     </div>
                 </div>
             </div>
