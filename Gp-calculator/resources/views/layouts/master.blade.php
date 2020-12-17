@@ -54,6 +54,7 @@
             height: 40px;
             font-size: 2.5rem;
             color: #000080;
+            font-weight: bold;
         }
         small{
             font-weight: 400;
@@ -127,6 +128,9 @@
                     </li>
                     <li class="nav-item">
                         <a href="/developer" class="nav-link">Developer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/logout" class="nav-link">Logout</a>
                     </li>
                   </ul>
                 </div>
