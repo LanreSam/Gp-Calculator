@@ -18,7 +18,7 @@
                     <div class="col-lg-6 bg-danger d-flex justify-content-center p-5">
                         <img src="images/dev.png" alt="Developer" class="img"/>
                     </div>
-                    <div class="col-lg-6 bg-success text-center p-5">
+                    <div class="col-lg-6 bg-dark text-center text-light p-5">
                         <h1>Ezeche Lanre Samuel</h1>
                         <p>
                             A current 300L Computer Science student at the prestigious Olabisi Onabanjo University (O.O.U)
