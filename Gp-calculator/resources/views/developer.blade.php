@@ -21,7 +21,7 @@
                     <div class="col-lg-6 bg-success text-center p-5">
                         <h1>Ezeche Lanre Samuel</h1>
                         <p>
-                            A current 300L Computer Science student of the prestigious Olabisi Onabanjo University (O.O.U)
+                            A current 300L Computer Science student at the prestigious Olabisi Onabanjo University (O.O.U)
                             as at the time of development of this application.
                         </p>
                         <a href="https://lanresam.ml" target="_blank" class="btn btn-info px-5 py-3">My Portfolio</a>
