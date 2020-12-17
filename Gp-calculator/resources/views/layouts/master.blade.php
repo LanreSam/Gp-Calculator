@@ -129,9 +129,6 @@
                     <li class="nav-item">
                         <a href="/developer" class="nav-link">Developer</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="/logout" class="nav-link">Logout</a>
-                    </li>
                   </ul>
                 </div>
             </nav>
