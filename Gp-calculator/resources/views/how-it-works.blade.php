@@ -1,18 +1,8 @@
 @extends('layouts.master')
 @section('title', 'How It Works')
 @section('content')
-    <style>
-        .img{
-            width: 100%;
-        }
-        @media screen and (min-width: 769px){
-            .img{
-                width: 70%;
-            }
-        }
-    </style>
     <section style="margin-top: 10rem">
-        <div class="container bg-white shadow text-center p-5">
+        <div class="container bg-white shadow text-center p-5 mb-5">
             <div class="row">
                 <h1>OOU's Accessment System</h1>
                 <p>
@@ -75,8 +65,9 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="mt-5"></div>
                         <div class="col-lg-6 d-flex justify-content-center">
-                            <img src="images/dev.png" alt="Developer" class="img"/>
+                            <h1>How OOU calculates GPA</h1>
                         </div>
                     </div>
                 </div>
