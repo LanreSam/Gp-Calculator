@@ -12,8 +12,8 @@
         }
     </style>
     <section style="margin-top: 10rem">
-        <div class="container d-lg-flex d-block">
-            <div class="row">
+        <div class="container">
+            {{-- <div class="row">
                 <div class="col-6 col-md-12 d-flex justify-content-center">
                     <img src="images/dev.png" alt="Developer" class="img"/>
                 </div>
@@ -21,6 +21,17 @@
             <div class="row">
                 <div class="col-6 col-md-12">
                     <h1>Developer</h1>
+                </div>
+            </div> --}}
+            <div class="row">
+                <div class="col-12 d-lg-flex d-block bg-warning">
+                    <div class="col-lg-6 bg-danger d-flex justify-content-center">
+                        <img src="images/dev.png" alt="Developer" class="img"/>
+                    </div>
+                    <div class="col-lg-6 bg-success text-center">
+                        <h1>Developer</h1>
+                        <h2>jagdjsig</h2>
+                    </div>
                 </div>
             </div>
         </div>
