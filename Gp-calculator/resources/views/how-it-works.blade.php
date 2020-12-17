@@ -79,7 +79,7 @@
                                 course in any semester, OOU multiplies the Course Unit (CU) by the Grade Point <b>(GP)</b> earned by the student
                                 in that particular course. <br/><br/>
                                 <b>For Example:</b> Lanre signed up for 20 Course units in Rain Semester, and got a Quality Point of
-                                85 for that Semester. Therefore, OOU calculates Lanre's Grade Point Average<b>GPA</b> for that particular semester using the formula
+                                85 for that Semester. Therefore, OOU calculates Lanre's Grade Point Average <b>GPA</b> for that particular semester using the formula
                                 <b>GPA = QP/CU</b><br/>
                                 <b>GPA = 85/20</b><br/>
                                 <b>GPA = 4.25</b><br/>
