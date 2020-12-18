@@ -41,13 +41,13 @@
             </div>
         </div>
         {{-- This is the second section --}}
-        <div class="container-fluid">
+        <div class="container-fluid mb-4">
             <div class="row">
-                <div class="col-12 bg-white d-lg-flex d-block">
-                    <div class="col-lg-6  text-center">
+                <div class="col-12 bg-dark d-lg-flex d-block">
+                    <div class="col-lg-6 text-center p-5 bg-white">
                         <div class="card">
-                            <div class="card-header bg-dark">
-                                <h1 class="text-light p-1">University Grading System in Nigeria</h1>
+                            <div class="card-header bg-white">
+                                <h1 class="text-dark p-2">University Grading System in Nigeria</h1>
                             </div>
                             <div class="card-body">
                                 <table class="table table-striped">
@@ -94,10 +94,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-5"></div>
-                    <div class="col-lg-6 text-center p-3 my-auto">
-                        <h1 class="txt mb-4">How OOU calculates GPA</h1>
-                        <p class="text-muted">
+                    <div class="col-lg-6 text-center p-5 my-auto">
+                        <h1 class="txt mb-4 text-white">How OOU calculates CGPA</h1>
+                        <p class="text-light">
                             Every course in OOU has a Course unit <b>(CU)</b>. Therefore to get the Quality Point <b>(QP)</b> for a particular
                             course in any semester, OOU multiplies the Course Unit (CU) by the Grade Point <b>(GP)</b> earned by the student
                             in that particular course. <br/><br/>
