@@ -7,12 +7,12 @@
         }
     </style>
     <section style="margin-top: 10rem">
-        <div class="container-fluid bg-dark text-center text-light p-5 mb-5">
+        <div class="container-fluid bg-dark text-center text-light mb-5">
             <div class="row">
                 <div class="col-12 d-lg-flex d-block">
-                    <div class="col-lg-6  text-center">
+                    <div class="col-lg-6  text-center p-5">
                         <h1 class="txt mb-4">How this application works</h1>
-                        <p class="">
+                        <p>
                             This application is a stand alone application and is in no way tied to OOU's Students Portal or websites as at this period.
                             Therefore, you are adviced to go to your dashboard on the school's portal and write out the following on a piece of
                             paper <b>Course Code</b>, <b>Course Units</b>, <b>Score</b>, <b>Semester & Level</b> of each course you did in each semester
@@ -23,8 +23,8 @@
                         </p>
                     </div>
                     <div class="mt-5"></div>
-                    <div class="col-lg-6 text-center">
-                        <h1 class="txt mb-4">How OOU calculates GPA</h1>
+                    <div class="col-lg-6 text-center bg-white p-5">
+                        <h1 class="txt mb-4 text-dark">How OOU calculates GPA</h1>
                         <p class="text-muted">
                             Every course in OOU has a Course unit <b>(CU)</b>. Therefore to get the Quality Point <b>(QP)</b> for a particular
                             course in any semester, OOU multiplies the Course Unit (CU) by the Grade Point <b>(GP)</b> earned by the student
