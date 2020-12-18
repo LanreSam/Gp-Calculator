@@ -7,10 +7,10 @@
         }
     </style>
     <section style="margin-top: 10rem">
-        <div class="container-fluid  text-center text-light mb-5">
+        <div class="container-fluid mb-4">
             <div class="row">
-                <div class="col-12 bg-dark d-lg-flex d-block">
-                    <div class="col-lg-6  text-center p-5">
+                <div class="col-12 bg-dark text-light d-lg-flex d-block">
+                    <div class="col-lg-6 text-center p-5">
                         <h1 class="txt mb-4">How this application works</h1>
                         <p>
                             This application is a stand alone application and is in no way tied to OOU's Students Portal or websites as at this period.
@@ -41,9 +41,9 @@
             </div>
         </div>
         {{-- This is the second section --}}
-        <div class="container-fluid bg-success mt-5 p-5">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 d-lg-flex d-block">
+                <div class="col-12 bg-white d-lg-flex d-block">
                     <div class="col-lg-6  text-center">
                         <div class="card">
                             <div class="card-header bg-dark">
