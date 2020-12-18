@@ -7,9 +7,9 @@
         }
     </style>
     <section style="margin-top: 10rem">
-        <div class="container-fluid bg-dark text-center text-light mb-5">
+        <div class="container-fluid  text-center text-light mb-5">
             <div class="row">
-                <div class="col-12 d-lg-flex d-block">
+                <div class="col-12 bg-dark d-lg-flex d-block">
                     <div class="col-lg-6  text-center p-5">
                         <h1 class="txt mb-4">How this application works</h1>
                         <p>
@@ -22,7 +22,7 @@
                             <b>I'm so sorry for the stress. I don't have access to the School's database.</b>
                         </p>
                     </div>
-                    <div class="mt-5"></div>
+                    <div class=""></div>
                     <div class="col-lg-6 text-center bg-white p-5">
                         <h1 class="txt mb-4 text-dark">How OOU calculates GPA</h1>
                         <p class="text-muted">
