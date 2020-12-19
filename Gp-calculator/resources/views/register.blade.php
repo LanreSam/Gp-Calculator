@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <form method="POST" action="" class="p-3">
+                            <form method="POST" class="p-3" action="{{ route('reg.addUser') }}">
                                 @csrf
                                 <div class="form-group">
                                     <label for="name">First name</label>
@@ -114,7 +114,7 @@
                                   @enderror
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <button type="submit" class="btn btn-primary mt-4 px-5 py-2">Register</button>
+                                    <input type="submit" class="btn btn-primary mt-4 px-5 py-2" value="Register"/>
                                     <small class="mt-4 pt-2">Already a user? | <a href="/login">Login</a></small>
                                 </div>
                             </form>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\registrationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -41,3 +42,7 @@ Route::get('/developer', function () {
 Route::get('/how-it-works', function () {
     return view('how-it-works');
 });
+
+//registrationPage and database
+
+Route::post('/addUser', [registrationController::class, 'addUsers'])->name('reg.addUser');
