@@ -19,7 +19,7 @@ class CreateRegistrationTable extends Migration
             $table->string('last_name');
             $table->integer('level');
             $table->string('department');
-            $table->string('matric');
+            $table->string('matric')->unique();
             $table->string('email')->unique();
             $table->string('password');
             $table->timestamps();
