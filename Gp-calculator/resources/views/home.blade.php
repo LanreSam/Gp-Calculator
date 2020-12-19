@@ -4,7 +4,7 @@
     <section style="margin-top: 10rem">
         <div class="container-fluid">
             <div class="row">
-                <h1>Welcome SCI/17/18/0494</h1>
+                <h1 class="text-center">Welcome SCI/17/18/0494</h1>
             </div>
             <div class="container bg-white p-5 mt-5">
                 <div class="row">
