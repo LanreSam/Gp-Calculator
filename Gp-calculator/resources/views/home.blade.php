@@ -12,27 +12,27 @@
                         <thead>
                             <tr>
                                 <th>id</th>
-                                <th>course_code</th>
+                                <th>CC</th>
                                 <th>score</th>
-                                <th>course_unit</th>
+                                <th>CU</th>
                                 <th>grade</th>
                                 <th>points</th>
-                                <th>quality_points</th>
+                                <th>QP</th>
                                 <th>semester</th>
                                 <th>level</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>ID</td>
-                                <td>course_code</td>
-                                <td>Score</td>
-                                <td>course_unit</td>
-                                <td>Grade</td>
-                                <td>Points</td>
-                                <td>Quality_points</td>
-                                <td>Semester</td>
-                                <td>Level</td>
+                                <td>1</td>
+                                <td>mat101</td>
+                                <td>70</td>
+                                <td>2</td>
+                                <td>A</td>
+                                <td>5</td>
+                                <td>10</td>
+                                <td>Hamattan</td>
+                                <td>100</td>
                             </tr>
                         </tbody>
                     </table>
