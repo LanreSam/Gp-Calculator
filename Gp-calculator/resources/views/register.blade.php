@@ -59,7 +59,7 @@
                                 @csrf
                                 <div class="form-group">
                                     <label for="name">First name</label>
-                                    <input type="text" class="form-control mb-4" id="name" name="name" required placeholder="Enter First name..."/>
+                                    <input type="text" class="form-control mb-4" id="fn" name="fn" required placeholder="Enter First name..."/>
 
                                       @error('name')
                                           <span class="text-danger">{{ $message }}</span>
@@ -67,7 +67,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="name">Last name</label>
-                                    <input type="text" class="form-control mb-4" id="name" name="name" required placeholder="Enter Last name..."/>
+                                    <input type="text" class="form-control mb-4" id="ln" name="ln" required placeholder="Enter Last name..."/>
 
                                       @error('name')
                                           <span class="text-danger">{{ $message }}</span>
