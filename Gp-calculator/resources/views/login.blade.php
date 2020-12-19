@@ -58,7 +58,7 @@
                                 @csrf
                                 <div class="form-group">
                                   <label for="matric">Matric Number</label>
-                                  <input type="text" class="form-control mb-4" id="matric" name="matric" required/>
+                                  <input type="text" class="form-control mb-4" id="matric" name="matric" required placeholder="Enter Matric Number..."/>
 
                                     @error('matric')
                                         <span class="text-danger">{{ $message }}</span>
@@ -66,7 +66,7 @@
                                 </div>
                                 <div class="form-group">
                                   <label for="password">Password</label>
-                                  <input type="password" class="form-control" id="password" name="password" required/>
+                                  <input type="password" class="form-control" id="password" name="password" required placeholder="Enter Password..."/>
 
                                   @error('password')
                                       <span class="text-danger">{{ $message }}</span>

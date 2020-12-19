@@ -144,7 +144,7 @@
                   <!-- links -->
                   <ul class="links">
                     <li class="nav-item">
-                      <a href="/" class="nav-link">Home</a>
+                      <a href="/home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="/how-it-works" class="nav-link">How It Works</a>
@@ -157,7 +157,7 @@
             </nav>
         </header>
     </div>
-    
+
     @yield('content')
 </body>
 <!-- JavaScript Bundle with Popper -->

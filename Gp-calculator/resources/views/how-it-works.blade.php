@@ -19,7 +19,7 @@
                             of the academic year you wish to add to your dashboard on this application. This is a one time activity, as your inputs will
                             always be stored in this application and readily available for future references as you don't have to go through all the stress
                             anymore. <br/>
-                            <b>I'm so sorry for the stress. I don't have access to the School's database.</b>
+                            <b>I'm so sorry for the stress. I don't have access to your records on the School's database.</b>
                         </p>
                     </div>
                     <div class=""></div>
@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="col-12 bg-dark d-lg-flex d-block">
                     <div class="col-lg-6 text-center p-5 bg-white">
-                        <div class="card">
+                        <div class="card shadow">
                             <div class="card-header bg-white">
                                 <h1 class="text-dark p-2">University Grading System in Nigeria</h1>
                             </div>
@@ -97,15 +97,15 @@
                     <div class="col-lg-6 text-center p-5 my-auto">
                         <h1 class="txt mb-4 text-white">How OOU calculates CGPA</h1>
                         <p class="text-light">
-                            Every course in OOU has a Course unit <b>(CU)</b>. Therefore to get the Quality Point <b>(QP)</b> for a particular
-                            course in any semester, OOU multiplies the Course Unit (CU) by the Grade Point <b>(GP)</b> earned by the student
-                            in that particular course. <br/><br/>
-                            <b>For Example:</b> Lanre signed up for 20 Course units in Rain Semester, and got a Quality Point of
-                            85 for that Semester. Therefore, OOU calculates Lanre's Grade Point Average <b>GPA</b> for that particular semester using the formula
-                            <b>GPA = QP/CU</b><br/>
-                            <b>GPA = 85/20</b><br/>
-                            <b>GPA = 4.25</b><br/>
-                            Therefore Lanre's GPA for Rain Semester is <b>4.25</b>
+                            Here is a simple explanation of how OOU calculates CGPA. <br/><b>For Example: </b>Lanre had a QP of 75 in
+                            <b>Hamattan Semester</b> and a QP of 85 in <b>Rain Semester</b> of the same academic year and he did a
+                            Total Course Unit <b>(TCU)</b> of 37 for that academic year. Then we can use the formula
+                            <b>CGPA = TQP/TCU</b> to calculate his CGPA for that academic year.<br/>
+                            <b>CGPA = (75 + 85)/37</b><br/>
+                            <b>CGPA = 160/37</b><br/>
+                            <b>CGPA = 4.32</b><br/>
+                            Therefore Lanre's CGPA for that academic year is <b>4.32</b><br/><br/>
+                            OOU repeats the process until you graduate from the university.
                         </p>
                     </div>
                 </div>

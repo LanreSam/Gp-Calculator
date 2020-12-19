@@ -34,7 +34,8 @@
         }
         @media screen and (min-width:500px){
             .card{
-                margin-top: 10%;
+                margin-top: 3%;
+                margin-bottom: 3%;
             }
         }
     </style>
@@ -57,16 +58,24 @@
                             <form method="POST" action="" class="p-3">
                                 @csrf
                                 <div class="form-group">
-                                    <label for="name">Full name</label>
-                                    <input type="text" class="form-control mb-4" id="name" name="name" required/>
+                                    <label for="name">First name</label>
+                                    <input type="text" class="form-control mb-4" id="name" name="name" required placeholder="Enter First name..."/>
 
                                       @error('name')
                                           <span class="text-danger">{{ $message }}</span>
                                       @enderror
                                 </div>
                                 <div class="form-group">
-                                    <label for="level">Current Level <small class="text-muted">e.g 100, 200, 300 ...</small></label>
-                                    <input type="text" class="form-control mb-4" id="level" name="level"/>
+                                    <label for="name">Last name</label>
+                                    <input type="text" class="form-control mb-4" id="name" name="name" required placeholder="Enter Last name..."/>
+
+                                      @error('name')
+                                          <span class="text-danger">{{ $message }}</span>
+                                      @enderror
+                                </div>
+                                <div class="form-group">
+                                    <label for="level">Current Level</label>
+                                    <input type="text" class="form-control mb-4" id="level" name="level" placeholder="Enter your current Level e.g 100, 200, 300..."/>
 
                                       @error('level')
                                           <span class="text-danger">{{ $message }}</span>
@@ -74,7 +83,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="department">Department <small class="text-muted">e.g Accounting</small></label>
-                                    <input type="text" class="form-control mb-4" id="email" name="department" required/>
+                                    <input type="text" class="form-control mb-4" id="department" name="department" required placeholder="Enter Department..."/>
 
                                       @error('department')
                                           <span class="text-danger">{{ $message }}</span>
@@ -82,7 +91,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="matric">Matric Number</label>
-                                    <input type="text" class="form-control mb-4" id="matric" name="matric" required/>
+                                    <input type="text" class="form-control mb-4" id="matric" name="matric" required placeholder="Enter Matric Number..."/>
 
                                       @error('matric')
                                           <span class="text-danger">{{ $message }}</span>
@@ -90,7 +99,7 @@
                                 </div>
                                 <div class="form-group">
                                   <label for="email">Email address</label>
-                                  <input type="email" class="form-control mb-4" id="email" name="email" required/>
+                                  <input type="email" class="form-control mb-4" id="email" name="email" required placeholder="Enter Email..."/>
 
                                     @error('email')
                                         <span class="text-danger">{{ $message }}</span>
@@ -98,7 +107,7 @@
                                 </div>
                                 <div class="form-group">
                                   <label for="password">Password</label>
-                                  <input type="password" class="form-control" id="password" name="password" required/>
+                                  <input type="password" class="form-control" id="password" name="password" required placeholder="Enter Password..."/>
 
                                   @error('password')
                                       <span class="text-danger">{{ $message }}</span>
