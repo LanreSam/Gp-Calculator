@@ -9,6 +9,12 @@ class registrationController extends Controller
 {
     public function addUsers(Request $request)
     {
+        $validatedData = $request->validateWithBag('post', [
+            'matric' => 'required|unique:matric',
+            'email' => 'required|unique:email',
+            'password' => 'required|min:8|max:12'
+        ]);
+
         DB::table('addUser')->insert([
             'firstname' => $request->fn,
             'lastname' => $request->ln,
@@ -18,6 +24,6 @@ class registrationController extends Controller
             'email' => $request->email,
             'password' => $request->password
         ]);
-        return view('login');
+        return view('login', compact('validatedData'));
     }
 }
