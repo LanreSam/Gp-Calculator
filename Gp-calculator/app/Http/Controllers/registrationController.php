@@ -10,7 +10,7 @@ class registrationController extends Controller
     public function addUsers(Request $request)
     {
         $validatedData = $request->validateWithBag('post', [
-            'matric' => 'required|unique:matric_no',
+            'matric' => 'required|unique:addUser',
             'email' => 'required|unique:email',
             'password' => 'required|min:8|max:12'
         ]);
